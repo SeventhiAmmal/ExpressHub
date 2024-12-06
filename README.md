@@ -32,19 +32,19 @@ cd express-crud-framework
 
 
 express-crud-framework/
-├── node_modules/            # Node modules
-├── controllers/             # Express route handlers (CRUD logic)
-│   └── itemController.js    # Example controller for 'items'
-├── models/                  # Data models
-│   └── itemModel.js         # Example model for 'items'
-├── routes/                  # Express routes
-│   └── itemRoutes.js        # CRUD routes for 'items'
-├── .env                     # Environment variables (e.g., DB connection string)
-├── config/                  # Configuration files
-│   └── db.js                # Database connection settings
-├── app.js                   # Main Express app
-├── package.json             # Project dependencies and scripts
-└── README.md                # This file
+├── node_modules/            
+├── controllers/             
+│   └── itemController.js    
+├── models/                  
+│   └── itemModel.js         
+├── routes/                  
+│   └── itemRoutes.js        
+├── .env                     
+├── config/                  
+│   └── db.js                
+├── app.js                   
+├── package.json             
+└── README.md                
 
 npm test
 
