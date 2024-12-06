@@ -29,3 +29,25 @@ Clone this repository to your local machine:
 ```bash
 git clone https://github.com/your-username/express-crud-framework.git
 cd express-crud-framework
+
+
+express-crud-framework/
+├── node_modules/            # Node modules
+├── controllers/             # Express route handlers (CRUD logic)
+│   └── itemController.js    # Example controller for 'items'
+├── models/                  # Data models
+│   └── itemModel.js         # Example model for 'items'
+├── routes/                  # Express routes
+│   └── itemRoutes.js        # CRUD routes for 'items'
+├── .env                     # Environment variables (e.g., DB connection string)
+├── config/                  # Configuration files
+│   └── db.js                # Database connection settings
+├── app.js                   # Main Express app
+├── package.json             # Project dependencies and scripts
+└── README.md                # This file
+
+npm test
+
+
+PORT=3000
+DB_CONNECTION_STRING=mongodb://localhost:27017/mydatabase
